@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const numInput = document.getElementById("num");
         const fibonacciResult = document.getElementById("fibonacci");
 
-        const num = parseFloat(numInput.value);
+        const num = parseInt(numInput.value);
 
-        if (isNaN(num) || num < 0) {
+        if (isNaN(num) || num < 0 || !Number.isInteger(num)) {
             alert("Por favor, ingrese un número válido");
         } else {
             const resultadoFibonacci = calcularFibonacci(num);
