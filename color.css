@@ -1,0 +1,41 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #0081c9 0%, #008e7b 33%, #e68e0c 33%, #d75e24 66%, #5fb9d3 66%, #769e33 100%);
+}
+
+.rectangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 300px;
+    background-color: rgb(228, 233, 237);
+    z-index: -1;
+}
+h1{
+    align-items: center;
+}
+
+#respuesta {
+    font-weight: bold;
+}
+
+#num {
+    
+}
+
+#boton {
+    height: 30px;
+    position: center;
+}
