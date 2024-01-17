@@ -1,7 +1,9 @@
 function calcularFibonacci(num) {
     let a = 0, b = 1;
-
-    if (num === 1) {
+    if (num === 0) {
+        console.log([]);
+        return [];
+    } else if (num === 1) {
         console.log(a);
         return [a];
     } else if (num === 2) {
